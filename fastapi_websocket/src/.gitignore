@@ -1,0 +1,5 @@
+/chatapp-frontend/node_modules/
+/chatapp/public/build/
+
+.DS_Store
+.vscode/
