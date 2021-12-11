@@ -8,7 +8,7 @@
 	let currentId = uuidv4();
 	let items = [];
 
-	var ws = new WebSocket(`ws://localhost:8000/ws/${clientId}`);
+	var ws = new WebSocket(`ws://localhost:8000/chat/${clientId}`);
 	ws.onmessage = function (event) {
 		const record = JSON.parse(event.data);
 		if (items.find((element) => element.message_id == record.message_id) === undefined) {

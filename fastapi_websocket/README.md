@@ -1,0 +1,1 @@
+# FastAPI+SvelteでWebSocketを動かしてみた
